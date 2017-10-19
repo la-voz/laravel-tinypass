@@ -20,7 +20,7 @@ class LaravelTinypassServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/../../config/tinypass.php' => config_path('tinypass.php'),
-        ]);
+        ], 'config');
 
 
         $this->app->bind('tinypass', function () {

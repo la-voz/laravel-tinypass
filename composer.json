@@ -1,0 +1,23 @@
+{
+  "name": "la-voz/laravel-tinypass",
+  "description": "Laravel Tinypass REST API client",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "mmoreno@lavozdelinterior.com.ar"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaVoz\\LaravelTinypass\\": "src"
+    }
+  },
+  "require": {
+    "la-voz/tinypass": "*"
+  },
+  "require-dev": {
+    "laravel/framework": "^5.3"
+  }
+}
